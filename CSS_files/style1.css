@@ -1,0 +1,52 @@
+html{
+  background: #ffdcb1;
+}
+header{
+  background: #ffa73b;
+  text-align: left;
+  padding: 5px;
+}
+nav{
+  height: 50px;
+  padding: 5px;
+  background: #894b00;
+  align-content: center;
+}
+ul{
+  display: block;
+  direction: horizontal;
+}
+li{
+  display: inline;
+  background: #894b00;
+}
+a{
+  margin: 25px;
+  padding: 1px;
+  border-radius: 2px;
+  background: #0000;
+  text-emphasis-color: #fff;
+  text-decoration-color: black;
+}
+
+aside{
+  float: left;
+  width: 25%;
+  margin: 25px;
+  background: #ffa73b;
+  display: block;
+
+
+}
+section{
+  float: right;
+  width: 60%;
+  background: #ffa73b;
+  margin: 25px;
+  align-content: center;
+}
+
+button{
+align-content: center;
+}
+
