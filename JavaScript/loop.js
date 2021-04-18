@@ -12,31 +12,27 @@ function carType() {
   return car;
 }
 
-// new function
-function carCount() {
-  var many_time = prompt("How many cars would you like to see");
+// // new function
+// function carCount() {
+//   var many_time = prompt("How many cars would you like to see");
 
-  while (many_time < 1) {
-    many_time = prompt("How many cars would you like to see. Please enter correct number");
-  }
-  return many_time;
-}
+//   while (many_time < 1) {
+//     many_time = prompt("How many cars would you like to see. Please enter correct number");
+//   }
+//   return many_time;
+// }
 
 // new function
-function imagePrint(many_time) {
-<<<<<<< HEAD
+function imagePrint() {
+
+
+
+
 
   for (var i = 1; i < 2; i++) {
 
     var image;
 
-=======
-
-  for (var i = 1; i <= many_time; i++) {
-
-    var image;
-
->>>>>>> fde8fdf14280896a77f959402af26922cfaad5f2
     if (car == 'Sport') {
       image = '<img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2022-chevrolet-corvette-z06-1607016574.jpg?crop=0.737xw:0.738xh;0.181xw,0.218xh&resize=640:*" width="150px" height="150px" alt="Top_Greatest_CARS">'
     } else if (car == 'Jeep') {
@@ -50,15 +46,10 @@ function imagePrint(many_time) {
   }
 }
 
-<<<<<<< HEAD
+
 
 var car = carType();
-imagePrint(1);
-=======
+imagePrint();
 
-var car = carType();
-var many_time = carCount();
-imagePrint(many_time);
 
->>>>>>> fde8fdf14280896a77f959402af26922cfaad5f2
 
