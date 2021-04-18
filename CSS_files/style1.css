@@ -2,31 +2,27 @@ html{
   background: #ffdcb1;
 }
 header{
-  background: #ffa73b;
+  background: #5f3e36;
   text-align: left;
-  padding: 5px;
+  
 }
+
 nav{
-  height: 50px;
-  padding: 5px;
-  background: #894b00;
-  align-content: center;
+  text-align: center;
 }
-ul{
-  display: block;
-  direction: horizontal;
+nav ul li{
+  display: inline-block;
+  
+  margin: 15px;
 }
-li{
-  display: inline;
-  background: #894b00;
-}
-a{
+
+nav ul li a{
   margin: 25px;
   padding: 1px;
+  text-decoration: none;
   border-radius: 2px;
-  background: #0000;
-  text-emphasis-color: #fff;
-  text-decoration-color: black;
+  color: wheat;
+  
 }
 
 aside{
@@ -38,15 +34,58 @@ aside{
 
 
 }
+aside button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20ps;
+}
+
+aside img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+
+aside p{
+  display: block;
+  text-align: center;
+  margin: 10px;
+}
+
 section{
   float: right;
-  width: 60%;
-  background: #ffa73b;
+  width: 65%;
   margin: 25px;
-  align-content: center;
+  background: #ffa73b;
+  display: block;
 }
 
-button{
-align-content: center;
+section p{
+  display: block;
+  text-align: center;
+  margin: 10px;
 }
 
+section img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 400px;
+}
+
+.menu{
+background: brown;
+}
+
+.title{
+  padding: 20px;
+background: #5f3e36;
+color: whitesmoke;
+
+}
